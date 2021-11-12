@@ -8,7 +8,8 @@ require __DIR__ . '/vendor/autoload.php';
 $router = new Router();
 
 $router->register('/',[App\Classes\Home::class,'index'])
-       ->register('/users',[App\Classes\Users::class,'index']);
+       ->register('/users',[App\Classes\Users::class,'index'])
+       ->register('/users/create',[App\Classes\Users::class,'create']);
 
 
 

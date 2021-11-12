@@ -11,4 +11,9 @@ class Users
         return 'welcome to user';
     }
 
+    public function create()
+    {
+        return 'create method';
+    }
+
 }
