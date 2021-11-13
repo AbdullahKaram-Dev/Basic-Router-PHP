@@ -8,12 +8,12 @@ class Users
 {
     public function index()
     {
-        echo 'welcome to user';
+        return 'welcome to user';
     }
 
     public function create()
     {
-        echo 'create method';
+        return 'create method';
     }
 
 }
