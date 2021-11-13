@@ -12,3 +12,12 @@ $router->get('/users',[App\Classes\Users::class,'index']);
 
 
 
+try {
+   echo $router->resolveRun();
+} catch (\App\Exception\MethodNotFoundException $e) {
+    dd($e->getMessage());
+} catch (\App\Exception\RouteNotFoundException $e) {
+    dd($e->getMessage());
+}
+
+
