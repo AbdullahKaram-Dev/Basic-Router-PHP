@@ -8,6 +8,6 @@ class Home
 {
     public function index():string
     {
-        return 'welcome to index method';
+        echo 'welcome to index method';
     }
 }

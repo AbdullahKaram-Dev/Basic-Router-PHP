@@ -7,7 +7,7 @@ use Exception;
 
 class RouteNotFoundException extends Exception
 {
-    protected $message = 'ERROR 404';
+    protected $message = 'route not valid';
 
 
 }
